@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from './Components/Navbar/NavBar';
+import Navbar from './Components/Navbar/NavBar';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
@@ -24,7 +24,6 @@ const router = createBrowserRouter(
   </Route>
 )
 )
-
   return (
    <RouterProvider router={router}/>
   );
