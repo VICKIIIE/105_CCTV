@@ -37,7 +37,7 @@ const Contact = () => {
         <div className="contact-info">
           <h2>Send Us a Message</h2>
           <p>
-            Feel free to reach out through the contact form or find our contact information below. Your feedback, questions, and suggestions are important to us.
+            Feel free to reach out through the contact form or find our contact information below.<br/>Your feedback, questions, and suggestions are important to us.
           </p>
         <ul className="contact-details">
   <li>
