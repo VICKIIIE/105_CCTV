@@ -11,11 +11,11 @@ import CCTV_6 from '../../assets/CCTV_6.jpg'
 
 const images = [
   { src: CCTV_3, title: 'Office CCTV Setup' },
-  { src: CCTV_5, title: 'Night Vision Test' },
+  { src: CCTV_1, title: 'Night Vision Test' },
   { src: CCTV_4, title: 'Outdoor Installation' },
   { src: CCTV_6, title: 'Control Room Setup' },
-  { src: CCTV_1, title: 'Client Demonstration' },
-  { src: CCTV_3, title: 'Retail Security Grid' },
+  { src: CCTV_2, title: 'Client Demonstration' },
+  { src: CCTV_5, title: 'Retail Security Grid' },
 ];
 
 const Gallery = () => {
