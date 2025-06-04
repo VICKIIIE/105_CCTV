@@ -43,7 +43,7 @@ const Contact = () => {
         <ul className="contact-details">
   <li>
     <img src={mail_icon} alt="Email" />
-    <a href="emailto:105entertainment2019@gmail.com">105entertainment2019@gmail.com</a>
+    <a href="mailto:105entertainment2019@gmail.com">105entertainment2019@gmail.com</a>
   </li>
   <li>
     <img src={phone_icon} alt="Phone" />
