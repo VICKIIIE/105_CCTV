@@ -123,3 +123,42 @@
     flex: 1;
   }
 }
+.contact-details li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #eee;
+  background: #1a1a1a;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-details li:hover {
+  background: #222;
+  transform: scale(1.03);
+  box-shadow: 0 0 12px rgba(0, 255, 224, 0.3);
+  color: #00ffe0;
+}
+
+.contact-details li img {
+  filter: brightness(0.9);
+  transition: transform 0.3s ease;
+}
+
+.contact-details li:hover img {
+  transform: scale(1.1);
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.contact-details a:hover {
+  color: #00ffe0;
+}

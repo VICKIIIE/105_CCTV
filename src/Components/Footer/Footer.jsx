@@ -7,7 +7,7 @@ const Footer = () => {
     
     
       <div className="footer-bottom">
-        <p>© 2025 105 CCTV. All rights reserved.</p>
+       <p>© 2025 105 CCTV. All rights reserved.</p>
       </div>
   
   );

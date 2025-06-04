@@ -4,6 +4,7 @@ import mail_icon from '../../assets/mail-icon.png';
 import phone_icon from '../../assets/phone-icon.png';
 import location_icon from '../../assets/location-icon.png';
 import white_arrow from '../../assets/white-arrow.png';
+import whatsapp_icon from '../../assets/Whatsapp_icon.jpg'
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -23,7 +24,7 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully ✅");
+      setResult("Message Sent Successfully ✅");
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -49,7 +50,7 @@ const Contact = () => {
     <a href="tel:+254716925919">+254 716 925 919</a>
   </li>
   <li>
-    <img src={phone_icon} alt="WhatsApp" />
+    <img src={whatsapp_icon} alt="WhatsApp" />
     <a href="https://wa.me/254716925919" target="_blank" rel="noopener noreferrer">
       WhatsApp Chat
     </a>

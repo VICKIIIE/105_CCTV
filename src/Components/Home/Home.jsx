@@ -1,4 +1,4 @@
-import Athena from '../../assets/pexels-athena-2582931.jpg'
+import Athena from '../../assets/pexels-athena-2582931.jpeg'
 import React, { useEffect } from 'react';
 import './Home.css';
 import { useNavigate } from 'react-router-dom';

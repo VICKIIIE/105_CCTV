@@ -1,6 +1,3 @@
-/* =============================
-   NAVBAR CONTAINER
-============================= */
 .navbar {
   width: 100%;
   position: fixed;
@@ -20,20 +17,14 @@
   align-items: center;
 }
 
-/* =============================
-   LOGO
-============================= */
 .logo {
   color: #00ffe0;
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
-  z-index: 1000; /* stays above mobile menu */
+  z-index: 1000; 
 }
 
-/* =============================
-   NAV LINKS - DESKTOP
-============================= */
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -63,9 +54,6 @@
   width: 100%;
 }
 
-/* =============================
-   HAMBURGER MENU ICON
-============================= */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -93,9 +81,7 @@
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* =============================
-   NAV LINKS - MOBILE
-============================= */
+
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
@@ -111,7 +97,7 @@
   }
 
   .nav-links.open {
-    max-height: 400px; /* or enough to show all links */
+    max-height: 400px; 
     padding: 1rem 2rem;
   }
 

@@ -13,20 +13,17 @@ const Navbar = () => {
     <nav className="navbar">
   <div className="navbar-container">
 
-    {/* Clickable logo - keeps branding on the left */}
     <Link to="/" className="logo" onClick={closeMenu}>
       105 CCTV
     </Link>
 
     <div className={`nav-links ${isOpen ? 'open' : ''}`}>
-      {/* <Link to="/" onClick={closeMenu} className={location.pathname === '/' ? 'active' : ''}>Home</Link> */}
       <Link to="/about" onClick={closeMenu} className={location.pathname === '/about' ? 'active' : ''}>About</Link>
       <Link to="/services" onClick={closeMenu} className={location.pathname === '/services' ? 'active' : ''}>Services</Link>
       <Link to="/gallery" onClick={closeMenu} className={location.pathname === '/gallery' ? 'active' : ''}>Gallery</Link>
       <Link to="/contact" onClick={closeMenu} className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link>
     </div>
 
-    {/* Mobile hamburger */}
     <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
       <span></span>
       <span></span>
